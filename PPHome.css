@@ -2,7 +2,7 @@
 
 /* Entire page*/
 body{
-    background-color: #d4efdf;
+    background-color: #F0EAD2;
 }
 
 
@@ -28,9 +28,9 @@ h1.SU-Head{
 
 div.MAIN-HEAD{
 
-    background-color:#145a32;
+    background-color:#3A5A40;
     padding: 25vh, 20%, 20%, 0;
-    color: white;
+    color: black;
     text-align:center;
 }
 
@@ -40,13 +40,13 @@ ul.Nav-List{
     margin: 0;
     padding:0;
     overflow: hidden;
-    background-color: #7dcea0; 
+    background-color: #ADC178; 
     font-size: 30px;
 }
 
 li{
     float: left;
-    border-right: 1px solid white;
+    border-right: 1px solid #F0EAD2;
 }
 
 li.contact-info{
@@ -71,7 +71,7 @@ div.Headshot{
     margin: 0 10% 10% 15%;
     width:fit-content;
     height:fit-content;
-    border: 6px double #145a32;
+    border: 6px double #A98467;
 } 
 
 img{
