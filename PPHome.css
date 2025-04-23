@@ -1,16 +1,90 @@
 /* PPHome.css */
 
+/* Entire page*/
+body{
+    background-color: #d4efdf;
+}
+
+
+
 /* Main Header*/
+h1.Name-Head{
+
+    font-size: 70px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin: 0;
+}
+
+h1.SU-Head{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin:0;
+}
+
+
 div.MAIN-HEAD{
 
-    background-color: darkgreen;
-
-    div.Name-head{
-        font-size: large;
-        text-align: center;
-    }
-    div.SU-head{
-        font-size: medium;
-        text-align: center;
-    }
+    background-color:#145a32;
+    padding: 25vh, 20%, 20%, 0;
+    color: white;
+    text-align:center;
 }
+
+/* Navigation bar */
+ul.Nav-List{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #7dcea0; 
+    font-size: 30px;
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+li.contact-info{
+    float: right;
+    border-right: none;
+}
+
+a{
+    display: block;
+    padding: 8px;
+}
+
+
+/*Homepage content*/
+div.ABT-ME{
+    padding-top: 10%;
+}
+
+div.Headshot{
+    float: left;
+    padding: 0;
+    margin: 0 10% 10% 15%;
+    width:fit-content;
+    height:fit-content;
+    border: 6px double #145a32;
+} 
+
+img{
+    width: 468px;
+    height: 393px;
+}
+
+div.MeDesc{
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+
+
+
