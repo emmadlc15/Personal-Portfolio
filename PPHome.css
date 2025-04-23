@@ -1,3 +1,16 @@
 /* PPHome.css */
 
 /* Main Header*/
+div.MAIN-HEAD{
+
+    background-color: darkgreen;
+
+    div.Name-head{
+        font-size: large;
+        text-align: center;
+    }
+    div.SU-head{
+        font-size: medium;
+        text-align: center;
+    }
+}
