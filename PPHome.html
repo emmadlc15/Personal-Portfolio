@@ -4,6 +4,8 @@
 <html>
     <head>
         <title> E.DLC Home</title>
+
+        <!-- CSS-->
         <link rel="stylesheet" href="PPHome.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
         <style>
@@ -12,6 +14,8 @@
             font-size: 16px;  
             }
         </style>
+
+
     </head>
 
     <body>
@@ -43,6 +47,21 @@
         </div>
         <div class="MeDesc">
             This is a personal portfolio website. It will include separate pages for my resume, experience,personal projects, and my contact information. In this paragraph, I will replace this content with a small "about me" section.
+        </div>
+
+        <!--JS TEST -->
+        <div class = "JSTest">
+            <button onclick="displayUpdate()">Last Website Update</button>
+
+            <script>
+            function displayUpdate() {
+            document.getElementById("demo").innerHTML = "5/2/25";
+            }
+            </script>
+
+            <p id="demo"></p>
+
+
         </div>
 
 
