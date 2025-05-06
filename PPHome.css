@@ -1,9 +1,14 @@
 /* PPHome.css */
 
 /* Entire page*/
-body{
-    background-color: #ded6e2;
-}
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("background1.jpg"); /* Replace with your file name */
+    background-size: cover;       /* Scale image to cover the screen */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Don't tile the image */
+  }
 
 
 
@@ -12,33 +17,25 @@ h1.Name-Head{
 
     font-size: 70px;
     font-weight: 300;
-    padding-top: 10px;
-    margin: 0;
+
 }
 
 h1.SU-Head{
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin:0;
+
 }
 
 
 div.MAIN-HEAD{
 
-    background-color:#3A5A40;
-    padding: 25vh, 20%, 20%, 0;
-    color: black;
     text-align:center;
 }
 
 /* Navigation bar */
 ul.Nav-List{
     list-style-type:none;
-    margin: 0;
-    padding:0;
     overflow: hidden;
     background-color: #ADC178; 
     font-size: 30px;
