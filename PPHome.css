@@ -1,87 +1,100 @@
 /* PPHome.css */
 
-/* Entire page*/
+/* Entire page */
 body {
     margin: 0;
     height: 100vh;
-    background-image: url("background1.jpg"); /* Replace with your file name */
-    background-size: cover;       /* Scale image to cover the screen */
-    background-position: center;  /* Center the image */
-    background-repeat: no-repeat; /* Don't tile the image */
+    background-image: url("mainBkgd.jpg"); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+
+
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ 
   }
 
+div.FlexboxLayout{
+    display:flex; 
+    flex-direction: row;
+    justify-content: center;
+}
 
+/* Main Header */
+div.MAIN-HEAD{
+    /*font-family: "Lucida Console", monospace;*/
+    color: #162b15;
+    text-align:center;
+}
 
-/* Main Header*/
 h1.Name-Head{
-
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 300;
+    font: 100px 300;
+    margin: 15px auto 0px;
 
 }
 
 h1.SU-Head{
     font-weight: 300;
     font-style: italic;
-    font-size: 20px;
+    font-size: 50px;
+    margin-top:0;
 
 }
 
-
-div.MAIN-HEAD{
-
-    text-align:center;
-}
 
 /* Navigation bar */
 ul.Nav-List{
-    list-style-type:none;
-    overflow: hidden;
-    background-color: #ADC178; 
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    /*font-family: "Lucida Console", monospace;*/
+    text-align:center;
+    list-style-type: none;
+    /*float: right;
+    margin-right: 10%;*/
 }
 
-li{
-    float: left;
-    border-right: 1px solid #F0EAD2;
-}
-
-li.contact-info{
-    float: right;
-    border-right: none;
-}
-
-a{
+li.resume{
     display: block;
-    padding: 8px;
+    border: 10px solid black;
+    
+}
+
+li.experience{
+    display: block;
+    border: 10px solid black;
+    
+}
+li.contact-info{
+    display: block;
+    border: 10px solid black;
+    
+}
+li.projects{
+    display: block;
+    border: 10px solid black;
 }
 
 
-/*Homepage content*/
-div.ABT-ME{
-    padding-top: 10%;
-}
 
-div.Headshot{
-    float: left;
-    padding: 0;
-    margin: 0 10% 10% 15%;
-    width:fit-content;
-    height:fit-content;
-    border: 6px double #3A5A40;
-} 
+
+
+/*Homepage content */
+
 
 img{
-    width: 468px;
-    height: 393px;
+    width: 35%;
+    /*margin-right: auto;
+    margin-left: auto; */
+    
 }
 
 div.MeDesc{
+
     text-align: center;
-    padding-right: 10%;
-    padding-top: 5%;
+
 }
-
-
-
-
