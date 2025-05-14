@@ -9,53 +9,35 @@ body {
     background-position: center;  
     background-repeat: no-repeat; 
 
-
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
  
   }
 
 div.FlexboxLayout{
     display:flex; 
-    flex-direction: row;
-    justify-content: center;
+    flex-flow: row;
+    justify-content: space-around; /*horizontal alignment*/
+    height:80vh;
+    align-items: center; /*vertical alignment*/
+    align-content: space-evenly; /*align flex lines*/
 }
 
-/* Main Header */
-div.MAIN-HEAD{
-    /*font-family: "Lucida Console", monospace;*/
-    color: #162b15;
-    text-align:center;
-}
-
-h1.Name-Head{
-    font-size: 100px;
-    font-weight: 300;
-    font: 100px 300;
-    margin: 15px auto 0px;
-
-}
-
-h1.SU-Head{
-    font-weight: 300;
-    font-style: italic;
-    font-size: 50px;
-    margin-top:0;
-
-}
 
 
 /* Navigation bar */
 ul.Nav-List{
     display: flex;
     flex-direction: column;
-    /*font-family: "Lucida Console", monospace;*/
+    
     text-align:center;
     list-style-type: none;
-    /*float: right;
-    margin-right: 10%;*/
+
+    width:50%;
+    box-sizing: border-box;
+
 }
 
 li.resume{
@@ -83,18 +65,23 @@ li.projects{
 
 
 
-/*Homepage content */
+/*Other homepage content */
+div.HP{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
-
-img{
-    width: 35%;
-    /*margin-right: auto;
-    margin-left: auto; */
-    
+    width:50%;
+    box-sizing: border-box;
 }
+img{
+    height: 60vh;
+    width: 68%;
 
+}
 div.MeDesc{
-
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
 
 }
