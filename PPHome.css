@@ -28,9 +28,6 @@ div.FlexboxLayout{
 
 /* Navigation bar */
 ul.Nav-List{
-    /*display: flex;
-    flex-direction: row;
-    justify-content: center;*/
     list-style-type: none;
 
     gap: 140px;
@@ -53,6 +50,7 @@ li.resume,
 li.experience,
 li.projects,
 li.contact-info{
+    
     border: 2px solid;
     border-radius: 25px;
     padding: 20px 30px;
@@ -61,8 +59,6 @@ li.contact-info{
     background-color: #f4a3f7d4;
     color: #1B2946;
     border-color: #e199e2;
-
-
 
 }
 
@@ -109,4 +105,8 @@ div.MeDesc{
     text-align: center;
 
     margin-top: 10px;
+}
+
+p.customText{
+    font: white;
 }

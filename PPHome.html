@@ -44,7 +44,27 @@
                 </ul>
 
             </div>
+
+                <div class="JS">
+                    <button id="showTextButton">Last Updated</button>
+                    <p id="customText" style="display: none;">5/16/25</p>
+
+                    <script>
+                        // Get the button and paragraph elements
+                        const button = document.getElementById("showTextButton");
+                        const text = document.getElementById("customText");
+
+                        // Add a click event listener to the button
+                        button.addEventListener("click", () => {
+                        text.style.display = "block"; // Show the text when the button is clicked
+                        text.style.color = "white";
+                        text.style.margin = 0;
+                        });
+                    </script>
+
+            </div>
         </div>
+        
     </body>
 </html>
 
