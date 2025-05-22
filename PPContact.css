@@ -71,18 +71,24 @@ a:active{
 
 div.FLEX{
     background-color: #cad6fc98;
+    border-radius: 30px;
 
-    margin-top: 15vh;
-    margin-right: 10px;
+    margin-top: 10vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     display:flex;
     justify-content:center;
     align-items: center;
+
 
 }
 
 img.Headshot{
     height: 40vh;
     width: auto;
+    border: 5px solid #1B2946;
 }
 
 ul.Contact{
