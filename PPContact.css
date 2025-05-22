@@ -1,0 +1,102 @@
+/*PPContact.css*/
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url("bckgd2.jpg"); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color:#111a2c;
+}
+
+/*Nav bar*/
+ul.Nav-List {
+    display: flex;
+    align-items: center;         /* Align items vertically in the center */
+    justify-content: center;     /* Center all nav items including logo */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    gap: 20px;                   /* Space between nav items */
+
+    background-color: #f4a3f771;
+}
+
+li.resume,
+li.experience,
+li.projects,
+li.home,
+li.contact-info{
+    
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 20px 30px;
+    margin: 15px;
+
+    background-color: #fca8ffcd;
+    color: #1B2946;
+    border-color: #e199e2;
+} 
+
+li.resume:hover, 
+li.experience:hover, 
+li.projects:hover,
+li.home:hover, 
+li.contact-info:hover{
+
+    background-color: #fdc7ffad;
+}
+
+a:link{
+    color: #1B2946;
+    text-decoration:none;
+}
+
+a:visited{
+    color: #421644;
+}
+
+a:active{
+    background-color: #fdc7ffad;
+}
+
+/*Page content*/
+
+div.FLEX{
+    background-color: #cad6fc98;
+
+    margin-top: 15vh;
+    margin-right: 10px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+img.Headshot{
+    height: 40vh;
+    width: auto;
+}
+
+ul.Contact{
+    list-style-type: none;
+}
+
+a.email{
+    text-decoration: underline;
+}
+
+ul.Icons{
+    list-style-type: none;
+}
+
+
+
+

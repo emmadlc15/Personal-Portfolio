@@ -1,0 +1,112 @@
+/* PPHome.css */
+
+/* Entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("bckgd2.jpg"); 
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+
+    font-family: "Proza Libre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ 
+  }
+
+div.FlexboxLayout{
+    display:flex; 
+    flex-flow: column;
+    height:80vh;
+    align-items: center; /*vertical alignment*/
+    align-content: space-evenly; /*align flex lines*/
+ 
+}
+
+
+
+/* Navigation bar */
+ul.Nav-List{
+    list-style-type: none;
+
+    gap: 140px;
+    padding: 0;
+    margin-top: 10vh;
+
+    font-size:35px;
+
+}
+.Nav-List a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+li.resume,
+li.experience,
+li.projects,
+li.contact-info{
+    
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 20px 30px;
+    margin: 15px;
+
+    background-color: #f4a3f7d4;
+    color: #1B2946;
+    border-color: #e199e2;
+
+}
+
+li.resume:visited,
+li.experience:visited,
+li.projects:visited,
+li.contact-info:visited{
+
+    color: #421644;
+ 
+
+}
+
+li.resume:hover,
+li.experience:hover,
+li.projects:hover,
+li.contact-info:hover{
+
+    background-color: #efa8f1ad;
+
+
+}
+
+
+
+
+
+/*Other homepage content */
+div.HP{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img{
+    display: block;
+    margin-top: 10px;
+    padding-top: 0;
+    height: auto;
+    max-width:170px;
+
+}
+div.MeDesc{
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+p.customText{
+    font: white;
+}
