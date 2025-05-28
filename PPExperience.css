@@ -12,12 +12,12 @@ body{
     background-size: cover;      
     background-position: center;  
     background-repeat: no-repeat; */
-    background-color: #111a2c;
+    background-color: #b2bfe6;
 
     font-family: "Proza Libre", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color:white;
+    color:#1B2946;
 }
 
 /*Nav bar*/
@@ -79,6 +79,7 @@ nav{
 
     margin-top: 5vh;
     margin-bottom: 5vh;
+    padding: 2vh;
 
 
     background-color: #fdc7ffad;
@@ -87,16 +88,27 @@ nav{
 nav a{
     padding-left: 2%;
     padding-right: 2%;
+
+    border-left: 2px solid #1B2946;
+}
+
+nav a.Experience{
+    border-right: 2px solid #1B2946;
 }
 
 
 #Awards,
 #CSExperience,
 #Experience{
-    margin-top: 50vh; 
+    background-color: #cad6fc;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-bottom: 10vh;
 }
 
 #Awards{
-    background-color: #cad6fc;
+    margin-top: 5vh;
 }
+
+
 
