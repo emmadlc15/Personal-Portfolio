@@ -73,11 +73,18 @@ a:active{
 }
 
 /* Page Content */
-
+h5{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #fdc7ffad ;
+    margin:0;
+    padding-top: 3vh;
+}
 nav{
     text-align: center;
 
-    margin-top: 5vh;
+    margin-top: 0;
     margin-bottom: 5vh;
     padding: 2vh;
 
@@ -101,14 +108,66 @@ nav a.Experience{
 #CSExperience,
 #Experience{
     background-color: #cad6fc;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding: 10vh 10%;
+    padding-top: 5vh;
     margin-bottom: 10vh;
+    
 }
 
 #Awards{
     margin-top: 5vh;
 }
+
+
+li{
+    list-style-type: none;
+    margin-top: 2vh;
+}
+
+
+dt {
+    font-size: large;
+    font-weight: bold;
+    margin: 2vh;
+}
+
+dd{
+    margin-bottom: 1vh;
+    display: list-item;
+    list-style-type: circle;
+}
+
+dd.date{
+    list-style-type: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+/* Back to top btn */
+#myBtn{
+display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #f9acfc; /* Set a background color */
+  color: #1B2946; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+
 
 
 

@@ -31,34 +31,109 @@
             </ul>
 
             
+            <!--Page content-->
+            
+            <h5>↓ Quick Links ↓</h5>
 
             <nav>
                 <a href="#Awards" > Awards </a>
-                <a href="#CSExperience"> CS Experience</a>
+                <a href="#CSExperience"> Course Relevancy</a>
                 <a class="Experience" href="#Experience"> Other Experience</a>
             </nav>
 
             <section id="Awards"> 
-                <h> Scholarly Awards </h>
-                <li>
-                   Dean's List: <br>Fall 2023, Winter 2023, Fall 2024, Winter 2024  
-                </li>
-                <li> President's List: <br> Winter 2025</li>
+                <h1> Scholarly Awards </h1>
+                <dl>
+                    <dt>Dean's List</dt>
+                        <dd>Fall 2023, Winter 2024, Fall, 2024</dd>
+                    
+                    <dt>President's List</dt>
+                        <dd>Winter 2025, Spring 2025</dd>
+                </dl>
 
             </section>
                 
             <section id="CSExperience">
-                <div> None yet!</div>
+                <h1> Course Relevancy</h1>
+                <dl>
+                    <dt>Data Structures and Algorithms</dt>
+                        <dd> Learned to analyze runtime performance of operations through big O notation</dd>
+                        <dd> Became proficient at comparing sorting and search algorithms</dd>
+                        <dd> Learned to implement recursive algorithms appropriately to BST’s, heaps, and queues among other data structures</dd>
+
+                    <dt>Fundamentals of Databases</dt>
+                        <dd> Able to create and apply business rules to making efficient ER diagrams</dd>
+                        <dd>Learned to implement database creation in MYSQL and use various SQL commands to organize and analyze data</dd>
+                        <dd> Able to combine front-end and back-end of a website using MYSQL, HTML, and CSS </dd>
+
+                    <dt>The Art of Web Design</dt>
+                        <dd> Able to design a website appropriate for intended users while applying techniques from HCI/UX </dd>
+                        <dd> Learned to choose appropriate technologies and methodologies to support the designed website</dd>
+
+                    <dt>Business Economics</dt>
+                        <dd> Learned to apply graphical and statistical tools to analyze business issues and communicate fundamental economic concepts orally and in written forms</dd>
+                        <dd> Able to recognize the ethical and social dimensions of market and policy outcomes</dd>
+
+                    <dt>Business Statistics</dt>
+                        <dd> Gained the ability to describe and analyze qualitative and quantitative data, and apply basic probability rules as needed</dd>
+                        <dd> Learned to evaluate statistical findings and communicate the results of statistical analysis accurately</dd>
+                        <dd> Able to use Microsoft Excel to generate statistical results</dd>
+                </dl>
             </section>
 
 
             <section id="Experience">
-                 <h> Research Assistant - Seattle University <br> Fall 2025 - Present</h>    
-                <div> Description here</div>
+                <h1> Other Experience <br></h1> 
+                
+                <dl>
+                    <dt>Research Assistant - Seattle University</dt>
+                        <dd class="date">Feb 2025 - Present</dd>
+                        <dd> Consisted of analyzing 5+ business, law, and AI-related literature reviews weekly while maintaining source reliability, organized and detailed notes, and accurate documentation for biweekly meetings with team of 4+ collaborators </dd>
+                        <dd> Presented 7+ pages of research findings biweekly while using preparational and public speaking skills to organize each team member's data and discussions of research findings </dd>
+                        <dd> Utilized professional writing skills to create drafts that will be used and consulted for the final journal article</dd>
+
+                    <dt>Student Athlete - Seattle University Women's Soccer Team</dt>
+                        <dd class="date">Aug 2023 - Present</dd>
+                        <dd> Committed 8-12 hours weekly to the team using time management and direct collaboration with teammates and coaches to improve personal performance and gain team rewards</dd>
+                        <dd> Addressed various discourse with coaches and captains through consistent and professional communication to receive and internalize critiques, confront issues, and build a strong and supportive team environment  </dd>
+
+                        <dt>Associate - Oke Poke Co. </dt>
+                        <dd class="date">Sept 2022 - June 2024</dd>
+                        <dd> Assisted 200+ customers weekly while utilizing quality customer service, consistency, and reliability to create a welcoming experience for customers and other employees</dd>
+                        <dd> Managed stressful environments daily by utilizing flexibility and quick thinking to provide efficient and stress-free service during daily rushes  </dd>
+                        <dd> Prepped 45+ foods weekly through thorough memorization of work maneuvers and expectations, and safe food handling to prepare for daily inventory </dd>
+
+                        <dt>Club Member - Society of Women in Engineering (SWE) </dt>
+                        <dd class="date">Jan 2025 - Present</dd>
+                        <dd> Participated in professional development workshops, networking events, and panel discussions promoting gender diversity in STEM</dd>
+                        <dd> Attended biweekly meetings to engage in technical discussions, leadership training, and industry guest speaker sessions  </dd>
+                        <dd> Supported initiatives to empower women in engineering through volunteer events, mentorship opportunities, and outreach programs </dd>
+                </dl>
             </section>
      
+            <!-- Back to top button-->
 
+        <button onclick="topFunction()" id="myBtn" title="Back to top">Back to top</button>
 
+        <script>
+            let mybutton = document.getElementById("myBtn");
 
+            //When the user scrolls down 20px from the top of the document, show the button 
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            //When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+            }
+        </script>
         </body>
 </html>

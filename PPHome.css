@@ -110,3 +110,17 @@ div.MeDesc{
 p.customText{
     font: white;
 }
+
+
+#showTextButton{
+  bottom: center; /* Place the button at the bottom of the page */
+  z-index: 99; /* Make sure it does not overlap */
+  border: white; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #cad6fc; /* Set a background color */
+  color: #1B2946; /* Text color */
+  padding: 8px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+  cursor: pointer;
+}
