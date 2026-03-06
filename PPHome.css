@@ -4,14 +4,18 @@
 body {
     margin: 0;
     height: 100vh;
-    background-image: url("bckgd2.jpg"); 
+    background-image: url("bckgd3.jpg"); 
     background-size: cover;      
     background-position: center;  
     background-repeat: no-repeat; 
 
-    font-family: "Proza Libre", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    .metamorphous-regular {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+    }
+
  
   }
 
@@ -23,8 +27,6 @@ div.FlexboxLayout{
     align-content: space-evenly; /*align flex lines*/
  
 }
-
-
 
 /* Navigation bar */
 ul.Nav-List{
@@ -82,7 +84,87 @@ li.contact-info:hover{
 
 }
 
+.menu-item {
+  list-style: none;
+  font-family: 'Press Start 2P', cursive; 
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: all 0.2s ease-in-out; /* Controls the speed of the pop */
+  display: block;
+  width: fit-content;
+}
 
+/* The Hover State */
+.menu-item:hover {
+  color: #ffcc00; /* Gold highlight */
+  transform: scale(1.2); /* Makes it 20% bigger */
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Adds a glow */
+}
+
+.menu-item {
+  list-style: none;
+  font-family: 'MedievalSharp', cursive; 
+  font-size: 50px;
+  color: #fff1d0; 
+  cursor: pointer;
+  margin: 25px 0;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+/* Left Arrow */
+.menu-item::before {
+  content: ""; /* Remove the text arrow */
+  display: inline-block;
+  width: 70px; 
+  height: 70px;
+  background-image: url("flower\ \(2\).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  filter: grayscale(100%); /* Make it look stone-like when not hovered */
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover::before {
+  filter: grayscale(0%) drop-shadow(0 0 5px gold); /* Add color/glow on hover */
+}
+.menu-item::after {
+  content: ""; /* Remove the text arrow */
+  display: inline-block;
+  width: 70px; 
+  height: 70px;
+  background-image: url("flower\ \(2\).png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  filter: grayscale(100%); /* Make it look stone-like when not hovered */
+  transition: all 0.3s ease;
+}
+.menu-item:hover::after {
+  filter: grayscale(0%) drop-shadow(0 0 5px gold); /* Add color/glow on hover */
+}
+
+
+/* Hover State - Everything triggers at once */
+.menu-item:hover {
+  color: #fff;
+  transform: scale(1.1);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+.menu-item:hover::before,
+.menu-item:hover::after {
+  opacity: 1;
+  color: #ff4500; /* Gothic orange/red glow */
+  text-shadow: 0 0 10px #ff4500;
+}
 
 
 

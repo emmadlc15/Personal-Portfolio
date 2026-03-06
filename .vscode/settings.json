@@ -4,5 +4,18 @@
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Study Planner",
+            "database": "study_planner",
+            "username": "emmadelacruz",
+            "password": "rosE41515!"
+        }
+    ]
 }
