@@ -1,9 +1,9 @@
-/*PPContact.css*/
+/* contact.css */
 
 body{
     margin: 0;
     height: 100vh;
-    background-image: url("bckgd2.jpg"); 
+    background-image: url("../assets/images/backgrounds/contact-bg.jpg"); 
     background-size: cover;      
     background-position: center;  
     background-repeat: no-repeat; 
