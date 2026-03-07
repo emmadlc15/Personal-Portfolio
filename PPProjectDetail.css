@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(19, 29, 24, 0.88), rgba(19, 29, 24, 0.94)), url("bckgd3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f8f0d3;
+    .metamorphous-regular {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+    }
+}
+
+nav {
+    text-align: center;
+}
+
+ul.Nav-List {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    gap: 20px;
+    background-color: #1e2b24e4;
+}
+
+.menu-item:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+}
+
+.menu-item {
+    list-style: none;
+    font-size: larger;
+    color: #fff1d0;
+    cursor: pointer;
+    margin: 25px 0;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding-left: 1%;
+}
+
+.Nav-List a {
+    color: #fff1d0;
+    text-decoration: none;
+}
+
+.icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.case-study {
+
+    padding: 18px 22px 30px;
+    background-color: rgb(249, 255, 237);
+    color: #1f2a24;
+}
+
+.back-link {
+    margin: 0 0 20px;
+}
+
+.back-link a {
+    color: #12251c;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.case-hero {
+    margin-bottom: 24px;
+}
+
+h1 {
+    margin: 12px 0 10px;
+    font-size: 2.5rem;
+    color: #f8f0d3;
+    background-color: #1e2b24;
+    border: 10px double #3c5648;
+    padding: 1%;
+}
+
+
+
+.case-hero img {
+    width: 100%;
+    max-height: 330px;
+    object-fit: cover;
+    border: 5px solid rgba(32, 66, 50, 0.814);
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    margin: 0 0 10px;
+    color: #132019;
+    font-size: 1.6rem;
+}
+
+section p,
+section li {
+    line-height: 1.75;
+    font-size: large;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.link-list a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #22392c;
+    color: #f8f0d3;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.link-list a:hover {
+    background-color: #f5df95;
+    color: #1c2a23;
+}
+
+.Nav-List a:focus-visible,
+.back-link a:focus-visible,
+.link-list a:focus-visible {
+    outline: 3px solid #ffd45e;
+    outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+    .menu-item {
+        font-size: 13px;
+    }
+
+    .case-study {
+        margin-top: 22px;
+        padding: 16px;
+    }
+}
+
+#imgWrap{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 5% 5%;
+}
+
+#imgFormat{
+    width: 100%;
+    height: auto;
+}
+
+#newImgFormat{
+    width: 100%;
+    height: auto;
+}
+ul{
+    line-height: 1.75;
+    font-size: large;
+}
+
+#myBtn{
+display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  background-color: #1e2b24; /* Set a background color */
+  color: #fffae1; /* Text color */
+  border-color: #b2d5b5;
+  font-family: "Metamorphous", serif;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  font-size: 15px; /* Increase font size */
+}
+html{
+    scroll-behavior: smooth;
+}

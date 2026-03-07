@@ -15,9 +15,8 @@ body {
   font-style: normal;
   font-size: x-large;
     }
+}
 
- 
-  }
 
 div.FlexboxLayout{
     display:flex; 
@@ -28,10 +27,30 @@ div.FlexboxLayout{
  
 }
 
+nav{
+    text-align: center;
+}
+
+div.MeDesc{
+    color: #fff1d0; 
+    font-size: 2rem;
+    .medievalsharp-regular {
+  font-family: "MedievalSharp", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300px;
+}
+    text-align: center;
+
+    margin-top: 10px;
+
+
+}
+
 /* Navigation bar */
 ul.Nav-List{
     list-style-type: none;
-
+    
     gap: 140px;
     padding: 0;
     margin-top: 10vh;
@@ -48,53 +67,6 @@ ul.Nav-List{
     height: 100%;
 }
 
-li.resume,
-li.experience,
-li.projects,
-li.contact-info{
-    
-    border: 2px solid;
-    border-radius: 25px;
-    padding: 20px 30px;
-    margin: 15px;
-
-    background-color: #f4a3f7d4;
-    color: #1B2946;
-    border-color: #e199e2;
-
-}
-
-li.resume:visited,
-li.experience:visited,
-li.projects:visited,
-li.contact-info:visited{
-
-    color: #421644;
- 
-
-}
-
-li.resume:hover,
-li.experience:hover,
-li.projects:hover,
-li.contact-info:hover{
-
-    background-color: #efa8f1ad;
-
-
-}
-
-.menu-item {
-  list-style: none;
-  font-family: 'Press Start 2P', cursive; 
-  font-size: 24px;
-  color: white;
-  cursor: pointer;
-  margin: 20px 0;
-  transition: all 0.2s ease-in-out; /* Controls the speed of the pop */
-  display: block;
-  width: fit-content;
-}
 
 /* The Hover State */
 .menu-item:hover {
@@ -183,26 +155,31 @@ img{
     max-width:170px;
 
 }
-div.MeDesc{
-    text-align: center;
-
-    margin-top: 10px;
-}
-
-p.customText{
-    font: white;
-}
 
 
 #showTextButton{
   bottom: center; /* Place the button at the bottom of the page */
   z-index: 99; /* Make sure it does not overlap */
-  border: white; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #cad6fc; /* Set a background color */
-  color: #1B2946; /* Text color */
-  padding: 8px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #1e2b24; /* Set a background color */
+  color: #fffae1; /* Text color */
+  border-color: #b2d5b5;
+  font-family: "Metamorphous", serif;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
   font-size: 15px; /* Increase font size */
-  cursor: pointer;
 }
+
+#showTextButton:hover {
+  background-color: rgb(130, 172, 151);/* Gold highlight */
+  color:#1e2b24;
+  transform: scale(1.1); /* Makes it 20% bigger */
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Adds a glow */
+}
+
+#showTextButton:active {
+  background-color: #395f46; /* Gothic orange/red */
+  transform: scale(1.1); /* Slightly smaller than hover */
+  text-shadow: 0 0 15px rgba(21, 41, 23, 0.8); /* Stronger glow on click */
+}
+

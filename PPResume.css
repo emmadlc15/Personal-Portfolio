@@ -3,20 +3,25 @@
 body{
     margin: 0;
     height: 100vh;
-    background-image: url("bckgd2.jpg"); 
+    background-image: url("bckgd3.jpg"); 
     background-size: cover;      
     background-position: center;  
     background-repeat: no-repeat; 
 
-    font-family: "Proza Libre", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    .metamorphous-regular {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+    }
 
-    color:#1B2946;
 }
 
 
 /*Nav bar*/
+nav{
+    text-align: center;
+}
 ul.Nav-List {
     display: flex;
     align-items: center;         /* Align items vertically in the center */
@@ -26,46 +31,42 @@ ul.Nav-List {
     margin: 0;
     height: 10vh;
     gap: 20px;                   /* Space between nav items */
-
-    background-color: #f4a3f771;
-}
-
-li.resume,
-li.experience,
-li.projects,
-li.home,
-li.contact-info{
     
-    border: 2px solid;
-    border-radius: 25px;
-    padding: 20px 30px;
-    margin: 15px;
-
-    background-color: #fca8ffcd;
-    color: #1B2946;
-    border-color: #e199e2;
-} 
-
-li.resume:hover, 
-li.experience:hover, 
-li.projects:hover,
-li.home:hover, 
-li.contact-info:hover{
-
-    background-color: #fdc7ffad;
+    background-color: #1e2b24e4;
 }
 
-a:link{
-    color: #1B2946;
+
+/* The Hover State */
+.menu-item:hover {
+  color: #ffcc00; /* Gold highlight */
+  transform: scale(1.2); /* Makes it 20% bigger */
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Adds a glow */
+}
+
+.menu-item {
+  list-style: none;
+  font-size: larger;
+  color: #fff1d0; 
+  cursor: pointer;
+  margin: 25px 0;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding-left: 1%;
+}
+
+
+a{
+    color: #fff1d0;
     text-decoration:none;
 }
 
-a:visited{
-    color: #421644;
-}
-
-a:active{
-    background-color: #fdc7ffad;
+img{
+    width: 24px;
+    height: 24px;
 }
 
 /*Body*/

@@ -5,113 +5,113 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
+body {
     margin: 0;
-    height: 100vh;
-    /*background-image: url("bckgd2.jpg"); 
-    background-size: cover;      
-    background-position: center;  
-    background-repeat: no-repeat; */
-    background-color: #b2bfe6;
+    min-height: 100vh;
+    background-image: url("bckgd3.jpg"); 
+    background-size: auto;
+    background-position: top left;
+    background-repeat: repeat;
 
-    font-family: "Proza Libre", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color:#1B2946;
+    .metamorphous-regular {
+  font-family: "Metamorphous", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+    }
 }
-
 /*Nav bar*/
 ul.Nav-List {
     display: flex;
     align-items: center;         /* Align items vertically in the center */
     justify-content: center;     /* Center all nav items including logo */
     list-style-type: none;
-    padding: 0;
+    padding: none;
     margin: 0;
     height: 10vh;
     gap: 20px;                   /* Space between nav items */
-
-    background-color: #f4a3f771;
-}
-
-li.resume,
-li.experience,
-li.projects,
-li.home,
-li.contact-info{
     
-    border: 2px solid;
-    border-radius: 25px;
-    padding: 20px 30px;
-    margin: 15px;
-
-    background-color: #fca8ffcd;
-    color: #1B2946;
-    border-color: #e199e2;
-} 
-
-li.resume:hover, 
-li.experience:hover, 
-li.projects:hover,
-li.home:hover, 
-li.contact-info:hover{
-
-    background-color: #fdc7ffad;
+    background-color: #1e2b24e4;
 }
 
-a:link{
-    color: #1B2946;
+
+/* The Hover State */
+.menu-item:hover {
+  color: #ffcc00; /* Gold highlight */
+  transform: scale(1.2); /* Makes it 20% bigger */
+  text-shadow: 0 0 10px rgba(255, 204, 0, 0.8); /* Adds a glow */
+}
+
+.menu-item {
+  list-style: none;
+  font-size: larger;
+  color: #fff1d0; 
+  cursor: pointer;
+  margin: 25px 0;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding-left: 1%;
+}
+
+
+a{
+    color: #fff1d0;
     text-decoration:none;
 }
 
-a:visited{
-    color: #421644;
+img{
+    width: 24px;
+    height: 24px;
+    margin: none;
+   
 }
 
-a:active{
-    background-color: #fdc7ffad;
+nav{
+    text-align: center;
 }
+
 
 /* Page Content */
 h5{
     text-align: center;
     font-weight: normal;
     font-size: 20px;
-    background-color: #fdc7ffad ;
+    color: #fff1d0;
     margin:0;
-    padding-top: 3vh;
-}
-nav{
-    text-align: center;
-
-    margin-top: 0;
-    margin-bottom: 5vh;
-    padding: 2vh;
-
-
-    background-color: #fdc7ffad;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-nav a{
-    padding-left: 2%;
-    padding-right: 2%;
 
-    border-left: 2px solid #1B2946;
+.quickJump{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
 }
-
-nav a.Experience{
-    border-right: 2px solid #1B2946;
-}
-
 
 #Awards,
 #CSExperience,
 #Experience{
-    background-color: #cad6fc;
-    padding: 10vh 10%;
+    /*background-color: #cad6fc;*/
+    background-color: #e8e7d3;
+    padding: 5vh 5%;
     padding-top: 5vh;
     margin-bottom: 10vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: double;
+    border-width: 7px;
+    border-color: #f5df95;
     
+}
+
+dd.date{
+    font-style: italic;
+    font-weight: bold;
 }
 
 #Awards{
@@ -157,16 +157,15 @@ display: none; /* Hidden by default */
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #f9acfc; /* Set a background color */
-  color: #1B2946; /* Text color */
+  background-color: #1e2b24; /* Set a background color */
+  color: #fffae1; /* Text color */
+  border-color: #b2d5b5;
+  font-family: "Metamorphous", serif;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 15px; /* Increase font size */
 }
-
 
 
 

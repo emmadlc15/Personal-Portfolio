@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Case Study</title>
+    <link rel="stylesheet" href="PPProjectDetail.css">
+    <link rel="icon" type="image/x-icon" href="Favicon Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul class="Nav-List">
+            <li class="icon"><img src="flower (2).png" alt="Decorative floral icon"></li>
+            <li class="menu-item"><a href="PPHome.html" target="_self">HOME</a></li>
+            <li class="menu-item"><a href="PPResume.html" target="_self">RESUME</a></li>
+            <li class="menu-item"><a href="PPExperience.html" target="_self">EXPERIENCE</a></li>
+            <li class="menu-item"><a href="PPProjects.html" target="_self">PROJECTS</a></li>
+            <li class="menu-item"><a href="PPContact.html" target="_self">CONTACT ME</a></li>
+            <li class="icon"><img src="flower (2).png" alt="Decorative floral icon"></li>
+        </ul>
+    </nav>
+
+    <main class="case-study">
+        <p class="back-link"><a href="PPProjects.html" target="_self">← Back to Projects</a></p>
+
+        
+        <h1>PERSONAL BRAND SITE REDESIGN</h1>
+        
+
+        <section>
+            <h2>Project Overview</h2>
+            <p>
+                This project refreshed the original portfolio experience to better communicate strengths, showcase work, and improve navigation flow across resume, projects, and contact pathways. It was also a great excuse to have it reflect more of my personality and design style!
+            </p>
+        </section>
+
+        <section>
+            <h2>My Process</h2>
+            <ul>
+                <li> Redesigned the portfolio aesthetic to be more cohesive and visually engaging with the goal to reflect a fantasy-game like style.</li>
+                <li>Audited the original structure with stronger section labels and placement. Some examples include: </li>
+                    <ul>Placed navigation items closer together for better visibility and accessibility.</ul>
+                    <ul>Restructuring the 'Experience' page to better meet user interests by placing relevant experiences first instead of last. </ul>
+                    <ul>For pages that require scrolling, I implemented smoother scrolling behavior in addition to a 'back to top' button. </ul>
+                <li>Finally implemented the 'Projects' page!</li>
+                    <ul>Created a card-based layout that highlights each project with a visual preview, role and tools used, and links to the project details.</ul>
+                    <ul>Designed each project detail page to display comprehensive information about the project, including necessary pictures and links.</ul>
+                    <ul>I designed the 'Projects' page to be a storytelling hub, so users can scan at a glance or dive deep into each project.</ul>
+                <li>Adjusted responsive spacing and typography for better mobile experience.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Final Outcome</h2>
+            <p>
+                I'm super proud of this redesign and the new 'Projects' page! The updated layout now supports project storytelling with consistent cards, clearer role/tool context, and direct links to outcomes and details. The new design is more cohesive and visually engaging, with a fantasy-game like style that reflects my personality. The navigation flow has been improved across resume, projects, and contact pathways, making it easier for users to find what they're looking for. Overall, this redesign has significantly enhanced the user experience of my portfolio website, and was extremely fun to do.
+            </p>
+            <p>There is always room for improvement regarding code maintainability and efficiency, but for my first major website design, I'm quite happy with the results!</p>
+        </section>
+
+        <section>
+            <h2>Project Links</h2>
+            <ul class="link-list">
+                <li><a href="#" target="_self">GitHub Repository</a></li>
+            </ul>
+        </section>
+
+        <header class="case-hero">
+            <div id="imgWrap">
+                <div id="imgFormat">
+                    <img src="OldHomeSS.png" alt="Old homepage design">
+                    <img src="OldExpSS.png" alt="Old experience design">
+                    <img src="OldContactSS.png" alt="Old Contact Page design">
+                </div>
+                <div id="newImgFormat">
+                    <img src="homeSS.png" alt="New homepage design">
+                    <img src="ExpSS.png" alt="New experience design">
+                </div>
+            </div>
+        </header>
+    </main>
+    <button onclick="topFunction()" id="myBtn" title="Back to top">Back to top</button>
+
+        <script>
+            let mybutton = document.getElementById("myBtn");
+
+            //When the user scrolls down 20px from the top of the document, show the button 
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            //When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+            }
+        </script>
+</body>
+</html>
