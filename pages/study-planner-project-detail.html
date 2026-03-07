@@ -26,30 +26,27 @@
     <main class="case-study">
         <p class="back-link"><a href="projects.html" target="_self">← Back to Projects</a></p>
 
-        
-        <h1>PERSONAL BRAND SITE REDESIGN</h1>
+            
+        <h1>STUDY PLANNER WEB APP</h1>
         
 
         <section>
             <h2>Project Overview</h2>
             <p>
-                This project refreshed the original portfolio experience to better communicate strengths, showcase work, and improve navigation flow across resume, projects, and contact pathways. It was also a great excuse to have it reflect more of my personality and design style. I wanted to create a fantasy-game like aesthetic with a color palette inspired by nature and old books, and typography that felt whimsical yet readable. If you couldn't yet tell, my favorite color is green!
+                The main goal of this project was to play around with Agentic AI tools to create a web-based application that helps students organize their study schedule and track progress, bringing in aspects of data analytics. The app allows users to input their courses, assignments, and study goals, and then generates a personalized study plan based on their preferences and deadlines. The design of the app is clean and user-friendly, with a focus on functionality and ease of use. 
             </p>
+            <p>The structure includes a 'Planner' page, which allows users to add courses and course grades, color coding them for when course tasks appear on the calendar. The calendar may toggle between a monthly and weekly view depending on user preferences. Users may add coursework which will appear on the calendar on the respective date - the coursework may be categorized as a Test, Quiz, or Assignment. Separate fields have also been added to view current courses and upcoming coursework.</p>
+            <p>Another key feature is the study timer, which allows users to track their study sessions and manage their time more effectively. The 'History' page allow users to view sesssion history and performance metrics, including days in which they logged the most time studying for a specific course, and the most studied course. The main purpose of this page </p>
         </section>
 
         <section>
             <h2>My Process</h2>
             <ul>
-                <li> Redesigned the portfolio aesthetic to be more cohesive and visually engaging with the goal to reflect a fantasy-game like style.</li>
-                <li>Audited the original structure with stronger section labels and placement. Some examples include: </li>
-                    <ul>Placed navigation items closer together for better visibility and accessibility.</ul>
-                    <ul>Restructuring the 'Experience' page to better meet user interests by placing relevant experiences first instead of last. </ul>
-                    <ul>For pages that require scrolling, I implemented smoother scrolling behavior in addition to a 'back to top' button. </ul>
-                <li>Finally implemented the 'Projects' page!</li>
-                    <ul>Created a card-based layout that highlights each project with a visual preview, role and tools used, and links to the project details.</ul>
-                    <ul>Designed each project detail page to display comprehensive information about the project, including necessary pictures and links.</ul>
-                    <ul>I designed the 'Projects' page to be a storytelling hub, so users can scan at a glance or dive deep into each project.</ul>
-                <li>Adjusted responsive spacing and typography for better mobile experience.</li>
+                <li> I worked with Codex to plan the project structure and features. </li>
+                    <ul> One difficulty was codex not understanding my aesthetic goals. It took a lot of trial and error to implement a calm - bubbly feel and at the end, I ended up having to make more edits myself. </ul>
+                <li> To being the web app implementation, I already had the necessary html, css, and SQL files set up as a scaffolding. When I allowed codex to begin generating the raw code, I noticed a few things in the results: </li>
+                    <ul>Inconsistency - The navigation bar varied across different pages which violated the user expectation of consistency </ul>
+                    <ul> Decent error processing - Some fields required input which the application did a good job of catching and informing the user. However, the study-timer feature did not specify that there must be at least one course added in order to log a study session, risking the user starting a session and not being able to time it.</ul>
             </ul>
         </section>
 

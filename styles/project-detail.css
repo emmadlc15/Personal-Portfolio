@@ -129,14 +129,15 @@ section li {
     display: inline-block;
     text-decoration: none;
     background-color: #22392c;
-    color: #f8f0d3;
+    color: #faf4dc;
     padding: 10px 14px;
-    border-radius: 10px;
     font-weight: 700;
+    box-shadow: #132019 0px 4px 6px -1px, #132019 0px 2px 4px -1px;
+    border: #b2d5b5 2px solid;
 }
 
 .link-list a:hover {
-    background-color: #f5df95;
+    background-color: #b2d5b5;
     color: #1c2a23;
 }
 
