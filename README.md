@@ -52,3 +52,11 @@ Portfolio site organized for readability and maintainability.
 ## Entry Point
 
 - Open `index.html` from the project root.
+
+## Publish (GitHub Pages)
+
+This repository is configured to auto-deploy to GitHub Pages from the `main` branch using GitHub Actions.
+
+- Live URL: `https://emmadlc15.github.io/Personal-Portfolio/`
+- Trigger deploy: push to `main`
+- Workflow file: `.github/workflows/deploy-pages.yml`
