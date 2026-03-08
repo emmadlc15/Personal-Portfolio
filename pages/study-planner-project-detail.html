@@ -33,7 +33,7 @@
         <section>
             <h2>Project Overview</h2>
             <p>
-                The main goal of this project was to play around with Agentic AI tools to create a web-based application that helps students organize their study schedule and track progress, bringing in aspects of data analytics. The app allows users to input their courses, assignments, and study goals, and then generates a personalized study plan based on their preferences and deadlines. The design of the app is clean and user-friendly, with a focus on functionality and ease of use. 
+                The main goal of this project was to play around with <b>Agentic AI</b> tools to create a web-based application that helps students organize their study schedule and track progress by bringing in aspects of <b>Data Analytics</b>. The app allows users to input their courses, assignments, and study goals, and then generates a personalized study plan based on their preferences and deadlines. The design of the app is clean and user-friendly, with a focus on functionality and ease of use. 
             </p>
             <p>The structure includes a 'Planner' page, which allows users to add courses and course grades, color coding them for when course tasks appear on the calendar. The calendar may toggle between a monthly and weekly view depending on user preferences. Users may add coursework which will appear on the calendar on the respective date - the coursework may be categorized as a Test, Quiz, or Assignment. Separate fields have also been added to view current courses and upcoming coursework.</p>
             <p>Another key feature is the study timer, which allows users to track their study sessions and manage their time more effectively. The 'History' page allow users to view sesssion history and performance metrics, including days in which they logged the most time studying for a specific course, and the most studied course. The main purpose of this page </p>
@@ -47,34 +47,36 @@
                 <li> To being the web app implementation, I already had the necessary html, css, and SQL files set up as a scaffolding. When I allowed codex to begin generating the raw code, I noticed a few things in the results: </li>
                     <ul>Inconsistency - The navigation bar varied across different pages which violated the user expectation of consistency </ul>
                     <ul> Decent error processing - Some fields required input which the application did a good job of catching and informing the user. However, the study-timer feature did not specify that there must be at least one course added in order to log a study session, risking the user starting a session and not being able to time it.</ul>
+                    <ul>Clear communication - The application provides clear feedback to the user about the status of their actions and any errors that may occur. </ul>
+                <li>I wanted to incorporate some aspect of data analytics into the application, so I worked with Codex to implement a 'priorities' page which takes into account several user-inputted elements to calculate what coursework should be prioritized at the moment. </li>
+                    <ul>It was a challenging task to implement the logic for calculating priorities based on the user's input, but the AI was helpful in giving suggestions. </ul>
+                <li>Overall, I let Codex take the heavy reigns in terms of implementation, but I was involved in reviewing and making necessary adjustments to ensure the final product met my vision.</li>
             </ul>
         </section>
 
         <section>
             <h2>Final Outcome</h2>
             <p>
-                I'm super proud of this redesign and the new 'Projects' page! Its updated layout now supports project storytelling with consistent cards, clearer role/tool context, and direct links to outcomes and details. Overall, the other pages remained similar to the original structure, but the new design is more cohesive and visually engaging. The navigation flow has been improved across resume, projects, and contact pathways, making it easier for users to find what they're looking for. Overall, this redesign has significantly enhanced the user experience of my portfolio website, and was extremely fun to do.
+                This was a great learning experience with Agentic AI. I'm super impressed with how much of the project Codex was able to handle on its own, and I was pleasantly surprised by the quality of the code it generated. I'm especially happy with the way the priorities page turned out, as it was a feature I had a hard time implementing on my own. It was fun reflecting on what metrics I deemed important for students (as a student myself) to incorporate into the algorithm for calculating priorities, and I think the final product is a useful tool for students looking to organize their study schedule and track their progress.
             </p>
-            <p>There is always room for improvement regarding code maintainability and efficiency, but for my first major website design, I'm quite happy with the results!</p>
+            <p>My main takeaway from this project is the power of agentic AI in accelerating the development process while recognizing how important human oversight and input remain in ensuring the final product meets the desired vision and user needs. For example, the AI was helpful in generating the initial code, but I had to provide feedback and make adjustments to ensure the final product met my vision, specifically with aesthetics and areas that needed human experience - what metrics were important to students when determining studying priorities.</p>
         </section>
 
         <section>
             <h2>Project Links</h2>
             <ul class="link-list">
-                <li><a href="https://github.com/emmadlc15/Personal-Portfolio" target="_blank">GitHub Repository</a></li>
+                <li><a href="https://github.com/emmadlc15/study-planner/tree/main" target="_blank">GitHub Repository</a></li>
+                <li><a href="https://study-planner-web-js3x.onrender.com" target="_blank">Website Link</a></li>
             </ul>
         </section>
 
         <header class="case-hero">
             <div id="imgWrap">
                 <div id="imgFormat">
-                    <img src="../assets/images/screenshots/legacy/home-old.png" alt="Old homepage design">
-                    <img src="../assets/images/screenshots/legacy/experience-old.png" alt="Old experience design">
-                    <img src="../assets/images/screenshots/legacy/contact-old.png" alt="Old Contact Page design">
+                    <img src="../assets/images/screenshots/current/study-planner-home.png" alt="Study Planner homepage">
                 </div>
                 <div id="newImgFormat">
-                    <img src="../assets/images/screenshots/current/home.png" alt="New homepage design">
-                    <img src="../assets/images/screenshots/current/experience.png" alt="New experience design">
+                    <img src="../assets/images/screenshots/current/study-planner-priorities.png" alt="Study Planner priorities page">
                 </div>
             </div>
         </header>
